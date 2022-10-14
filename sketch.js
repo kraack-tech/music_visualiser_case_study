@@ -8,7 +8,10 @@ var sound = null;
 var fourier;
 
 function preload(){
-	sound = loadSound('assets/stomper_reggae_bit.mp3');
+
+	soundFormats('mp3','wav');
+
+	sound = loadSound('assets/501346__foolboymedia__8-bit-ditty.wav');
 }
 
 function setup(){
